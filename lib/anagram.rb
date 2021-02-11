@@ -9,9 +9,13 @@ class Anagram
 
   def match(anagrams)
     matches = []
-    anagrams {|a| matches << a.split("")}
+    anagrams.each do |a|
+      if a.split("") == :word.split("")
+        matches << self
 
-    :word.split("")
+
+    matches.each do |b|
+        if b.sort == :word.split("")
   end
 
 end
