@@ -9,7 +9,7 @@ class Anagram
 
   def match(anagrams)
     matches = []
-    anagrams {|a| a.split("")}
+    anagrams {|a| matches << a.split("")}
 
     :word.split("")
   end
