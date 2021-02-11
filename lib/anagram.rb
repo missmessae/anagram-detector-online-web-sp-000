@@ -11,7 +11,7 @@ class Anagram
     matches = []
     anagrams.each do |a|
       if a.split("") == :word.split("")
-        matches << self
+        matches << a
 
 
     matches.each do |b|
