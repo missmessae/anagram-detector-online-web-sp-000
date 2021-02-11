@@ -13,5 +13,6 @@ class Anagram
       if a.split("") == :word.split("")
         matches << a
       end
+    end
   matches
 end
