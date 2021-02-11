@@ -12,10 +12,6 @@ class Anagram
     anagrams.each do |a|
       if a.split("") == :word.split("")
         matches << a
-
-
-    matches.each do |b|
-        if b.sort == :word.split("")
-  end
+      end
   matches
 end
