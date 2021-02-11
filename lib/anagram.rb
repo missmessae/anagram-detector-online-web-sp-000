@@ -8,7 +8,7 @@ class Anagram
 
 
   def match(anagrams)
-    
+    matches = []
 
   end
 
