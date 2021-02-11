@@ -17,5 +17,5 @@ class Anagram
     matches.each do |b|
         if b.sort == :word.split("")
   end
-
+  matches
 end
